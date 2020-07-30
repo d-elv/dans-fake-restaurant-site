@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stelios' Mixed Bag</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="half">
+                <h1 class="header-left-title">
+                    Dan's Mixed Bag
+                </h1>
+                <h2 class="under-left-title">
+                    Mediterranean Cafe & Bar
+                </h2>
+                <h2 class="header-centre-title">
+                    Full Catering Available!
+                </h2>
+                <h2 class="contact-details">
+                    Call Dan on 0207-453-564
+                </h2>
+            </div>
+        </header>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="">WELCOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">SPECIALS</a></li>
+                    <li><a href="">OUR MENU</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                
+                <img src="./images/slide-image-1.jpg" style="width:100%">
+                <div class="overlay-img"><img src="./images/stamp-overlay.png"></div>
+                </div>
+            
+                <div class="mySlides fade">
+                
+                <img src="./images/slide-image-2.jpg" style="width:100%">
+                <div class="overlay-img"><img src="./images/stamp-overlay.png"></div>
+                </div>
+            
+                <div class="mySlides fade">
+                
+                <img src="./images/slide-image-3.jpg" style="width:100%">
+                <div class="overlay-img"><img src="./images/stamp-overlay.png"></div>
+                </div>
+
+                <div class="mySlides fade">
+            
+                <img src="./images/slide-image-4.jpg" style="width:100%">
+                <div class="overlay-img"><img src="./images/stamp-overlay.png"></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <img
+                    src="images/picture-slide-shadow.jpg"
+                    alt="shadow showing depth underneath picture slide of meals"
+                />
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+
+                <span class="food-btn" onclick="currentSlide(1)"> <img src="./images/thmbnl-slide-image-1.jpeg"> </span> 
+                <span class="food-btn" onclick="currentSlide(2)"> <img src="./images/thmbnl-slide-image-2.jpeg"> </span> 
+                <span class="food-btn" onclick="currentSlide(3)"> <img src="./images/thmbnl-slide-image-3.jpeg"> </span> 
+                <span class="food-btn" onclick="currentSlide(4)"> <img src="./images/thmbnl-slide-image-4.jpeg"> </span> 
+            </div>
+                
+                <!-- Insert line of images that switch the alrge image -->
+            </section>
+            <h2>NEW LUNCH MENU COMING SOON!</h2>
+            <h2 class="authentic-dishes">
+                Authentic Mediterranean Dishes Made Fresh Daily!
+            </h2>
+            <section class="reservation-station">
+                <div class="date-picker-block">
+                    <p>Make a Reservation</p>
+                <div class="date-picker">
+                    
+                    <div class="selected-date"></div>
+                    <div class="dates">
+                        <div class="month">
+                            <div class="arrows prev-mth">&lt;</div>
+                            <div class="mth"></div>
+                            <div class="arrows next-mth">&gt;</div>
+                        </div>
+                        <div class="days">
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+                <p class="red-text">
+                    We are now open FOR inside DINING.
+                </p>
+
+                <p class="middle-p-size">reservations only</p>
+
+                <p class="red-text middle-p-size">
+                    Enjoy our new outside patio
+                </p>
+
+                <p class="enjoy-new">
+                    New wine and Cocktail MENUS • ask your server for details.
+                </p>
+                <img class="banner-with-dan"
+                    src="images/banner-with-me.png"
+                    alt="Banner showing Dan and belly dancers"
+                />
+            </section>
+
+            <div class="button-wrapper">
+                <a href="">CALL 0207-453-564</a>
+            </div>
+            <section class="restaurant-roundup">
+                <div class="res-round-images">
+                    <img
+                        src="./images/meal-over-3ps-left.jpg"
+                        alt="A delicious meal"
+                        class="three-images"
+                    />
+                    <img
+                        src="./images/meal-over-3ps-mid.jpg"
+                        alt="A delicious meal."
+                        class="three-images"
+                    />
+                    <img
+                        src="./images/meal-over-3ps-right.jpg"
+                        alt="A delicious meal."
+                        class="three-images"
+                    />
+                </div>
+                <div class="res-round-text">
+                    <p>
+                        Fresh and delicious Mediterranean dishes made daily for
+                        lunch and dinner. Call Efendi ahead so he can prepare
+                        for your arrival. View our complete menu by
+                        <a href="">clicking here</a>.
+                    </p>
+                    <p class="text-separator">
+                        Ask us about out Gift Certificates and weekly events.
+                        Planning a special event. Efendi offers complete
+                        catering services at a location of your choice. Call
+                        today and ask for details.
+                    </p>
+                    <p>
+                        Come and visit our new location at 160 Atwood Avenue in
+                        Cranston. Our newly renovated facility is sure to
+                        please. Comfy, cozy Mediterranean setting for your whole
+                        family.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="half">
+                <div class="footer-left-side">
+                    <h1 class="footer-left-title">
+                        Dan's Mixed Bag
+                    </h1>
+                    <h2 class="footer-under-left-title">
+                        Mediterranean Cafe & Bar
+                    </h2>
+                </div>
+                <div class="footer-right-side">
+                    <div class="footer-images">
+                        <img src="./images/footer-img-left.jpg" alt="" />
+                        <img src="./images/footer-img-mid.jpg" alt="" />
+                        <img src="./images/footer-img-right.jpg" alt="" />
+                    </div>
+                    <h2 class="footer-contact-details">
+                        Call Dan on 0207-453-564
+                    </h2>
+                </div>
+            </div>
+        </footer>
+        <script src="./javaScript/pictureSlider.js"></script>
+        <script src="./javaScript/datePicker.js"></script>
+    </body>
+</html>
