@@ -14,7 +14,7 @@ function currentSlide(n) {
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("foot-btn");
+    let dots = document.getElementsByClassName("food-btn");
     if (n > slides.length) {
         slideIndex = 1;
     }
@@ -28,5 +28,5 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    // dots[slideIndex - 1].className += " active";
 }
